@@ -69,7 +69,20 @@ const AuthFrom = () => {
 
     const socialAction = (action: string) => {
         setIsLoading(true);
-        //next social login
+        signIn(action, {
+            redirect: false,
+        })
+            .then((cb) => {
+                if (cb?.error) {
+                    toast.error("Invalid credentials");
+                }
+                if (cb?.ok && !cb?.error) {
+                    toast.success("Logged in!");
+                }
+            })
+            .finally(() => {
+                setIsLoading(false);
+            });
     };
     return (
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
