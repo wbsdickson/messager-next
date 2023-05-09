@@ -158,7 +158,7 @@ const AuthFrom = () => {
                         <AuthSocialButton
                             icon={BsGoogle}
                             onClick={() => {
-                                socialAction("github");
+                                socialAction("google");
                             }}
                         />
                     </div>
