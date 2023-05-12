@@ -19,25 +19,25 @@ const LoadingModal = () => {
                 >
                     <div
                         className="
-              fixed 
-              inset-0 
-              bg-gray-100 
-              bg-opacity-50 
-              transition-opacity
-            "
+                        fixed 
+                        inset-0 
+                        bg-gray-100 
+                        bg-opacity-50 
+                        transition-opacity
+                        "
                     />
                 </Transition.Child>
 
                 <div className="fixed inset-0 z-10 overflow-y-auto">
                     <div
                         className="
-              flex 
-              min-h-full 
-              items-center 
-              justify-center 
-              p-4 
-              text-center 
-            "
+                            flex 
+                            min-h-full 
+                            items-center 
+                            justify-center 
+                            p-4 
+                            text-center 
+                            "
                     >
                         <Transition.Child
                             as={Fragment}
