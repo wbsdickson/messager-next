@@ -117,22 +117,22 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({ isOpen, onClose, data }) 
                                                                 <div>
                                                                     <dt
                                                                         className="
-                                  text-sm 
-                                  font-medium 
-                                  text-gray-500 
-                                  sm:w-40 
-                                  sm:flex-shrink-0
-                                "
+                                                                        text-sm 
+                                                                        font-medium 
+                                                                        text-gray-500 
+                                                                        sm:w-40 
+                                                                        sm:flex-shrink-0
+                                                                        "
                                                                     >
                                                                         Emails
                                                                     </dt>
                                                                     <dd
                                                                         className="
-                                  mt-1 
-                                  text-sm 
-                                  text-gray-900 
-                                  sm:col-span-2
-                                "
+                                                                        mt-1 
+                                                                        text-sm 
+                                                                        text-gray-900 
+                                                                        sm:col-span-2
+                                                                        "
                                                                     >
                                                                         {data.users.map((user) => user.email).join(", ")}
                                                                     </dd>
@@ -142,22 +142,22 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({ isOpen, onClose, data }) 
                                                                 <div>
                                                                     <dt
                                                                         className="
-                                  text-sm 
-                                  font-medium 
-                                  text-gray-500 
-                                  sm:w-40 
-                                  sm:flex-shrink-0
-                                "
+                                                                        text-sm 
+                                                                        font-medium 
+                                                                        text-gray-500 
+                                                                        sm:w-40 
+                                                                        sm:flex-shrink-0
+                                                                        "
                                                                     >
                                                                         Email
                                                                     </dt>
                                                                     <dd
                                                                         className="
-                                  mt-1 
-                                  text-sm 
-                                  text-gray-900 
-                                  sm:col-span-2
-                                "
+                                                                    mt-1 
+                                                                    text-sm 
+                                                                    text-gray-900 
+                                                                    sm:col-span-2
+                                                                    "
                                                                     >
                                                                         {otherUser.email}
                                                                     </dd>
@@ -169,22 +169,22 @@ const ProfileDrawer: React.FC<ProfileDrawerProps> = ({ isOpen, onClose, data }) 
                                                                     <div>
                                                                         <dt
                                                                             className="
-                                    text-sm 
-                                    font-medium 
-                                    text-gray-500 
-                                    sm:w-40 
-                                    sm:flex-shrink-0
-                                  "
+                                                                                text-sm 
+                                                                                font-medium 
+                                                                                text-gray-500 
+                                                                                sm:w-40 
+                                                                                sm:flex-shrink-0
+                                                                            "
                                                                         >
                                                                             Joined
                                                                         </dt>
                                                                         <dd
                                                                             className="
-                                    mt-1 
-                                    text-sm 
-                                    text-gray-900 
-                                    sm:col-span-2
-                                  "
+                                                                                mt-1 
+                                                                                text-sm 
+                                                                                text-gray-900 
+                                                                                sm:col-span-2
+                                                                            "
                                                                         >
                                                                             <time dateTime={joinedDate}>{joinedDate}</time>
                                                                         </dd>
